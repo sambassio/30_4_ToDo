@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#twitterLink {
+    color: blue; 
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h1 {
+    color: green;
+}
+
+#taskInput, #addTaskButton {
+    padding: 10px;
+    margin: 5px;
+}
+
+#taskList {
+    list-style-type: none;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 60%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.done {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
